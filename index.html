@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swaraj Kashyap - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/portfolio_18055376.png" type="image/png">
+</head>
+<body>
+    <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#about" class="">About Me</a>
+        <a href="#skills" class="">Skills</a>
+        <a href="#projects" class="">Projects</a>
+        <a href="#contact" class="">Contact Me</a>
+        <span onclick="toggleMenu()">
+            <ion-icon name="menu"></ion-icon>
+        </span>
+    </nav>
+
+    <div class="link-box">
+        <span onclick="toggleMenu()"><ion-icon name="close"></ion-icon></span>
+        <a href="#home" class="active" onclick="setTimeout(() => {toggleMenu()}, 200)">Home</a>
+        <a href="#about" class="" onclick="setTimeout(() => {toggleMenu()}, 200)">About Me</a>
+        <a href="#skills" class="" onclick="setTimeout(() => {toggleMenu()}, 200)">Skills</a>
+        <a href="#projects" class="" onclick="setTimeout(() => {toggleMenu()}, 200)">Projects</a>
+        <a href="#contact" class="" onclick="setTimeout(() => {toggleMenu()}, 200)">Contact Me</a>
+    </div>
+
+    <div class="container boxes" id="home">
+        <div class="photo-area">
+            <div></div>
+        </div>
+        <div class="information">
+            <p class="greet">Hello There, <span>I'm &nbsp;</span></p>
+            <p class="my-name">Swaraj Kashyap.</p>
+            <p class="desc">I am a <span></span></p>
+            <div class="socials">
+                <a href="https://github.com/Swaraj-creator"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.instagram.com/_swaraj_kashyap_/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/swaraj-kumar-648116220/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href=""><ion-icon name="logo-reddit"></ion-icon></a>
+            </div>
+        </div>
+    </div>
+    <div class="content boxes" id="about">
+        <p class="title">About Me</p>
+        <div class="dark">
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;Hello World, and welcome to my portfolio! I’m Swaraj Kashyap, a passionate Web Develoepr, UI/UX Designer & 3D Artist with 3 years of experience in creating innovative, user-focused solutions. My work blends creativity and technical expertise, delivering Eye-Pleasing Designs for Clients.
+                <br>
+                <br>
+                From the beginning of my career, I’ve been driven by a deep curiosity for Technology & making it's most Efficient use. This passion led me to explore responsive web design, UI/UX principles, or branding strategies, which have since become cornerstones of my professional identity. I take pride in crafting projects that don’t just look good but also solve real-world problems and create meaningful experiences for users.
+                <br>
+                <br>
+                My approach to work is collaborative and detail-oriented. I believe that the best results emerge when ideas are shared, feedback is embraced, and every element is meticulously refined. Whether it’s brainstorming with clients, coding late into the night, or sketching out initial designs, I’m committed to delivering excellence at every stage of a project.
+            </p>
+        </div>
+        <div class="light">
+            <p>
+                When I’m not immersed in work, you can find me Travelling, Experimenting with photography, or just trying new things, doesn't matter if it's a Crap though. These moments recharge my creativity and fuel my passion for innovation.
+                <br>
+                <br>"You Know why this text is written in Uneven Shaped Box? - Because my design knows Perfection is a Myth. We need to learn new skills constantly to Stand ahead facing the wave of Evolving Technologies."
+                <br>
+                <br>
+                Thank you for visiting my portfolio! I’m always excited to connect with like-minded individuals and explore new opportunities. If you’re interested in collaborating, have a project in mind, or just want to say hi, feel free to <a href="#contact">Send a Mail</a>. Let’s create something amazing together!
+            </p>
+        </div>
+    </div>
+    <div class="content boxes" id="skills">
+        <p class="title">My Skills</p>
+    </div>
+    <div class="content boxes" id="projects">
+        <p class="title">My Projects</p>
+    </div>
+    <div class="content boxes" id="contact">
+        <p class="title">Contact Me</p>
+        <form action="#contact">
+            <input type="text" placeholder="Your Name..." id="client-name">
+            <input type="email" placeholder="Your Email I'd..." id="client-id">
+            <textarea placeholder="Message..." id="message"></textarea>
+            <input type="submit" id="btn" value="Send Message" onclick="sendMail()">
+        </form>
+        <p class="copyright">Swaraj Kashyap - © Copyright 2024. All Rights Reserved.<br/><b>About this Website: </b>Built with HTML, CSS & JavaScript. Hosted via GitHub.</p>
+    </div>
+    <div class="alert">
+        <p>Oops ! The username field can’t be empty.</p>
+        <div class="progress"></div>
+    </div>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="gmail.js"></script>
+    <script src="portfolio.js"></script>
+    <script src="projects.js"></script>
+</body>
+</html>
