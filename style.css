@@ -644,7 +644,7 @@ div#contact p.title {
     text-align: center;
 }
 
-div#contact form {
+div#contact div.form {
     width: calc(100% - 60px);
     height: calc(100% - 60px);
     position: relative;
@@ -657,7 +657,7 @@ div#contact form {
     justify-content: center;
     padding-bottom: 20px;
 }
-div#contact form input {
+div#contact div.form input {
     outline: none;
     border: 2px solid black;
     padding: 20px 30px;
