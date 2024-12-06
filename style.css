@@ -121,11 +121,13 @@ div.information p.my-name {
     top: calc(50% - 55px);
     font-weight: 600;
     left: 30px;
+    user-select: none;
 }
 
 div.information p.greet span {
     font-size: 25px;
     letter-spacing: 1px;
+    user-select: none;
 }
 div.information p.greet {
     color: white;
@@ -135,6 +137,7 @@ div.information p.greet {
     top: calc(50% - 55px);
     left: 60px;
     font-size: 14px;
+    user-select: none;
 }
 div.photo-area div {
     width: 300px;
