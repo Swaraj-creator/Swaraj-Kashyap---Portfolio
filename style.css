@@ -216,6 +216,7 @@ div.information p.desc {
     top: calc(50% + 80px - 55px);
     left: 30px;
     font-size: 18px;
+    user-select: none;
 }
 div.information p.desc span {
     color: red;
