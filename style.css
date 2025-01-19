@@ -275,6 +275,12 @@ div.information p.desc span::before {
     div.alert {
         right: 0px;
     }
+    div#about div.dark {
+        padding: 20px 40px 20px 40px;
+    }
+    div#about div.light {
+        padding: 20px 40px 20px 40px;
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -335,7 +341,7 @@ div.socials a:hover {
 div#about div.dark {
     color: #ffffff;
     background-color: black;
-    padding: 10px 40px 20px 40px;
+    padding: 10px 100px 20px 100px;
     font-family: "Lexend";
     text-align: justify;
     top: 20px;
@@ -346,7 +352,7 @@ div#about div.dark {
 div#about div.light {
     color: black;
     background-color: white;
-    padding: 20px 40px 30px 40px;
+    padding: 20px 100px 20px 100px;
     font-family: "Lexend";
     text-align: justify;
     top: 100px;
