@@ -275,7 +275,12 @@ div.information p.desc span::before {
     div.alert {
         right: 0px;
     }
-    
+    div#about div.dark {
+        padding: 10px 50px 20px 50px !important;
+    }
+    div#about div.light {
+        padding: 20px 50px 20px 50px !important;
+    }
 }
 
 @media screen and (max-width: 850px) {
