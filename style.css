@@ -256,7 +256,7 @@ div.information p.desc span::before {
         top: -79px;
         left: 50%;
         transform: translate(-50%);
-        background: linear-gradient(350deg, #ffffff 50%, #000000 50%);
+        background: linear-gradient(350deg, #ffffff 50%, #000000 50%) !important;
     }
     div#about div.light::after {
         content: "";
@@ -267,7 +267,7 @@ div.information p.desc span::before {
         left: 50%;
         transform: translate(-50%);
         z-index: 0;
-        background: linear-gradient(188deg, #ffffff 50%, #00000000 50%);
+        background: linear-gradient(188deg, #ffffff 50%, #00000000 50%) !important;
     }
     div#contact::before {
         background: linear-gradient(187deg, black 50%, white 50%);
@@ -280,6 +280,9 @@ div.information p.desc span::before {
     }
     div#about div.light {
         padding: 20px 50px 20px 50px !important;
+    }
+    div#skills {
+        padding: 30px 30px !important;
     }
 }
 
@@ -405,7 +408,7 @@ div#about p.title {
 div#skills {
     height: auto;
     width: auto;
-    padding: 30px 30px;
+    padding: 30px 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
