@@ -33,7 +33,7 @@ const allProjects = [
     }
 ];
 
-const allSkills = ["JavaScript", "HTML", "CSS", "Bootstrap", "Tailwind", "DSA", "Git", "React.js", "Node.js", "Three.js", "WebGL", "MySQL", "Adobe Lightroom", "Blender 3d", "Python", "Kali Linux", "Davinci Resolve", "Arduino IDE", "C++", "Java", "Android Studio", "Open CV", "Pygame", "JSX", "Microsoft Office"];
+const allSkills = ["JavaScript", "HTML", "CSS", "Bootstrap", "Tailwind", "DSA", "Git", "React.js", "Node.js", "Three.js", "WebGL", "MySQL", "Adobe Lightroom", "Blender 3d", "Python", "Kali Linux", "Davinci Resolve", "Arduino IDE", "C++", "Verilog", "Java", "Android Studio", "Open CV", "Pygame", "JSX", "Microsoft Office"];
 var skillsBox = document.getElementById("skills");
 
 function createProjects() {
